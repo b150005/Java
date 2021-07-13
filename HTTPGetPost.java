@@ -33,6 +33,7 @@ public class HTTPGetPost {
         try {
             HttpResponse<String> response = client.send(requestGet, 
                 // レスポンスボディ(=HTML情報)を「文字列」として処理するHttpResponse.BodyHandlersクラスのメソッドを利用
+                // -> 同期方式
                 HttpResponse.BodyHandlers.ofString()
             );
 
@@ -73,6 +74,7 @@ public class HTTPGetPost {
         try {
             HttpResponse<String> response = client.send(requestPost, 
                 // レスポンスボディ(=HTML情報)を「文字列」として処理するHttpResponse.BodyHandlersクラスのメソッドを利用
+                // -> 同期方式
                 HttpResponse.BodyHandlers.ofString()
             );
 
