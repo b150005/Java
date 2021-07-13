@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<parent id="100">
+    <child1 id="110">
+        <grandchild1_1 id="111">1st Child of child1</grandchild1_1>
+        <grandchild2_1 id="112">2nd Child of child1</grandchild2_1>
+    </child1>
+    <child2 id="120">
+        <grandchild1_2 id="121">Child of child2</grandchild1_2>
+    </child2>
+</parent>

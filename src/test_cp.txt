@@ -1,0 +1,2 @@
+1st sentence is written by BufferedWriter.
+2nd sentence is appended.

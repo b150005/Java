@@ -1,0 +1,28 @@
+{
+  "parent" : {
+    "relationship" : "Parent",
+    "id" : 100,
+    "child" : [ {
+      "relationship" : "1st Child of Parent",
+      "id" : 110,
+      "child" : [ {
+        "relationship" : "1st Child of Child1",
+        "id" : 111
+      }, {
+        "relationship" : "2nd Child of Child1",
+        "id" : 112
+      } ]
+    }, {
+      "relationship" : "2nd Child of Parent",
+      "id" : 120,
+      "child" : [ {
+        "relationship" : "Child of Child2",
+        "id" : 121
+      } ]
+    }, {
+      "relationship" : "3rd Child of Parent",
+      "id" : 130,
+      "child" : [ ]
+    } ]
+  }
+}
